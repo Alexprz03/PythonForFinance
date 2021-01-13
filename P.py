@@ -29,8 +29,8 @@ print(get_day_gainers())
  	c = input()
 
  	if c == "1":
- 		print("1 - Plus gros gain")
- 		print("2 - Plus grosse perte")
+ 		print("1 - Bullish ")
+ 		print("2 - Bearish")
  		c = input()
 
  		if c == "1":
