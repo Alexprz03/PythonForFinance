@@ -1,10 +1,12 @@
-API YAHOO PYTHON:
-yfinance : 
+# Python For Finance
+***
+## Financial Reporting App
+***
 
-https://pypi.org/project/yfinance/
 
-TUTO:
-https://algotrading101.com/learn/yfinance-guide/
-
-doc yahoo_fin :
-http://theautomatic.net/yahoo_fin-documentation/
+### General Info
+***
+(This is a school project as part of a Fintech engineering course).
+The purpose of the application is to create a reporting of the biggest stock market variations / info news of the financial market and crypto-currency.
+The user will also be able to search for variations of a company, a crypto-currency and have access to its graph via a web redirection.
+The application allows you to have a quick view on the market variations.
