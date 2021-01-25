@@ -1,12 +1,8 @@
 from tkinter import *
 import tkinter.ttk
-import webbrowser #import des pages webs
-import yfinance as yf
-from pandas_datareader import data as pdr
+import webbrowser
 import numpy as np
-import requests_html
 from yahoo_fin import stock_info as si
-from yahoo_fin.stock_info import get_analysts_info
 
 
 def clearFrame():
@@ -261,7 +257,7 @@ def tab_stocks():
 	#Enregistrement des tickers
 	ligne = []
 	tab_stocks = []
-	file = open("nasdaqlisted.txt", "r")
+	file = open("data/nasdaqlisted.txt", "r")
 	lignes = file.readlines()
 	for i in lignes:
 		txt = i.split("|")
@@ -346,7 +342,7 @@ window = Tk()
 window.title("My Application")
 window.geometry("860x550")
 window.minsize(550, 400)
-window.iconbitmap("logo.ico")
+window.iconbitmap("img/logo.ico")
 window.config(background=color_background)
 
 tab_stocks = tab_stocks()
