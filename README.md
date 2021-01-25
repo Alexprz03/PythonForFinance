@@ -11,7 +11,7 @@ The user will also be able to search for variations of a company, a crypto-curre
 The application allows you to have a quick view on the market variations.
 
 ### Screenshot
-![Image text](img/Interface.JPG =250x250)
+![Image text|100x100,20%](img/Interface.JPG)
 
 ## Technologies
 ***
