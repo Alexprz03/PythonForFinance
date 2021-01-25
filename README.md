@@ -36,4 +36,14 @@ $ pip install yahoo_fin
 $ pip install numpy
 ```
 
+## Run the project
+***
+For windows :
+```
+$ python3 app.py
+```
 
+For MacOS :
+```
+$ python app.py
+```
